@@ -1,0 +1,25 @@
+{
+  "name": "stjs",
+  "version": "1.0.0",
+  "description": "Notes from \"Software Tools in JavaScript\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/costinEEST/stjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/costinEEST/stjs/issues"
+  },
+  "homepage": "https://github.com/costinEEST/stjs#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "glob": "^7.2.0"
+  }
+}
