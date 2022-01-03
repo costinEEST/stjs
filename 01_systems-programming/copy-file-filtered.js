@@ -10,6 +10,10 @@ glob(`${srcRoot}/**/*.*`, { ignore: "*~" }, (err, files) => {
     console.log(err);
   } else {
     for (const srcName of files) {
+      if (srcName.includes("node_modules")) {
+        continue;
+      }
+
       stat(srcName, (err, stats) => {
         if (err) {
           console.error(err);
